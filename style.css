@@ -1,0 +1,403 @@
+* {
+  margin: o;
+  padding: 0;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+button#btn_manage {
+  background: #fff;
+}
+
+button#btn_book {
+  background: #fff;
+}
+
+.active {
+  background-color: #007ec6 !important;
+  border: none;
+  color: #fff !important;
+}
+
+body ul {
+  list-style: none !important;
+}
+
+/* ===== Header Part Style Heres */
+nav {
+  background-color: #efefef;
+}
+
+.dropdown-menu.show {
+  margin-left: -147px !important;
+  margin-top: 10px;
+}
+
+i.fa-solid.fa-bars {
+  color: #007ec6;
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+i.fas.fa-search {
+  color: #fff;
+  padding: 8px;
+  background-color: #007ec6;
+  border-radius: 50%;
+}
+
+/* ===== Header Part Style End Heres */
+
+/* ==== Here Imge Stle Here */
+
+.hero__img {
+  min-height: 550px;
+  background-image: url("Image/Hero_img.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* ==== Here Imge Stle Here */
+
+/*  Book Button Style Here */
+.action-area {
+  background-color: #d5d5d5;
+  padding-bottom: 30px;
+}
+
+.btn {
+  width: 50% !important;
+  height: 50px !important;
+  border-radius: 30px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border: none !important;
+  cursor: pointer;
+}
+
+#btn__manage {
+  width: 50% !important;
+  height: 50px !important;
+  border-radius: 30px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  white-space: nowrap !important;
+  background-color: white !important;
+  color: #007ec6 !important;
+  cursor: pointer;
+}
+
+
+
+.select__search__option {
+  margin: 20px;
+  justify-content: space-evenly;
+}
+
+.action__area {
+  transform: translateY(-36px);
+  padding: 0 10px;
+}
+
+.select__search__option {
+  padding: 8px 10px;
+  border: 1px solid white !important;
+  outline: none;
+  border-radius: 30px;
+  background: transparent !important;
+  color: white;
+}
+
+.before__icon::before {
+  content: "\f3c5";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 800;
+  color: gray;
+  cursor: pointer;
+  position: relative;
+  left: 10px;
+  top: 49px;
+  font-size: 18px;
+}
+
+.before__icon__date::before {
+  content: "\f073";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 800;
+  color: gray;
+  cursor: pointer;
+  position: relative;
+  left: 10px;
+  top: 48px;
+  font-size: 18px;
+}
+
+.search__with_res {
+  padding: 0px 10px;
+}
+
+.search__with_res input[type="text"] {
+  padding: 34px;
+  margin-bottom: 20px;
+}
+
+.reservations__number {
+  position: relative;
+}
+
+span.text {
+  position: absolute;
+  left: 35px;
+  top: 13px;
+  color: #007EC8;
+}
+
+.before__icon__user::before {
+  content: "\f007";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 800;
+  color: gray;
+  cursor: pointer;
+  position: relative;
+  left: 10px;
+  top: 44px;
+  font-size: 18px;
+
+}
+
+.last__one::before {
+  content: "\f0ac";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 800;
+  color: gray;
+  cursor: pointer;
+  position: relative;
+  left: 7px;
+  top: 46px;
+  font-size: 18px;
+
+}
+
+.return__date::before {
+  content: "\f073";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 800;
+  color: gray;
+  cursor: pointer;
+  position: relative;
+  left: 30px;
+  top: 47px;
+  font-size: 20px;
+}
+
+
+.trip__select {
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+.new__depart {
+  margin-top: -30px;
+}
+
+.before__icon,
+.before__icon__date,
+.before__icon__user {
+  margin-top: -30px;
+}
+
+
+
+
+input[type="text"] {
+  border: none;
+  padding: 23px 30px;
+  border-radius: 44px;
+  width: 100%;
+}
+
+
+
+
+input[type="text"]:focus {
+  border: none;
+  outline: none;
+
+}
+
+.new__icon::before {
+  content: "\f073";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 800;
+  color: gray;
+  cursor: pointer;
+  position: relative;
+  left: 8px;
+  top: 43px;
+  font-size: 16px;
+}
+
+
+
+.duoble-input {
+  display: flex;
+}
+
+.first__one input {
+  border-top-left-radius: 44px !important;
+  border-bottom-left-radius: 44px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  border-right: 1px solid #d5d5d5;
+  font-size: 12px;
+
+}
+
+.last__one input {
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-top-right-radius: 44px !important;
+  border-bottom-right-radius: 44px !important;
+  font-size: 12px;
+
+}
+
+.three-btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.three-btns button {
+  padding: 10px 27px;
+  border: 1px solid white !important;
+  outline: none;
+  border-radius: 30px;
+  background: transparent !important;
+  color: white;
+
+}
+
+.three-btns button:nth-child(1) {
+  background-color: #007ec6 !important;
+}
+
+.search-btn {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.search-btn button {
+  padding: 12px 70px;
+  background-color: #007ec6;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+}
+
+
+.mt-4 {
+  margin-top: 40px !important;
+}
+
+.first__two input::before {
+  content: "\f073";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 800;
+  color: gray;
+  cursor: pointer;
+  position: relative;
+  left: 30px;
+  top: 47px;
+  font-size: 20px;
+
+}
+
+
+
+.last__four input::before {
+  content: "\f073";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 800;
+  color: gray;
+  cursor: pointer;
+  position: relative;
+  left: 30px;
+  top: 47px;
+  font-size: 20px;
+
+}
+
+
+.reduce__icon {
+  width: max-content;
+  margin: 0 auto;
+}
+
+i.fa-solid.fa-minus {
+  border: 1px solid #007EC8;
+  padding: 5px;
+  border-radius: 50%;
+  color: #007EC8;
+  margin: 20px 0;
+}
+
+i.fa-solid.fa-plus {
+  border: 1px solid #007EC8;
+  padding: 5px;
+  border-radius: 50%;
+  color: #007EC8;
+  margin: 20px 0;
+}
+
+.one__trip {
+  display: block;
+}
+
+.mannage__trip,
+.round__trip,
+.multy__city {
+  display: none;
+}
+
+
+.single__trip {
+  display: block;
+}
+
+.search__with_ticket {
+  display: none;
+}
+
+
+
+
+
+
+/*  Book Button Style End *

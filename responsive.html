@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="Image/logo.png" alt="Company Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item humburg dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="fa-solid fa-bars"></i></span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Item 1</a>
+                                <a class="dropdown-item" href="#">Item 2</a>
+                                <a class="dropdown-item" href="#">Item 3</a>
+                                <a class="dropdown-item" href="#">Item 4</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header Section End here -->
+
+    <section>
+        <!-- Hero Section Image Here -->
+        <div class="hero__img">
+        </div>
+        <!-- Hero Section Image End here -->
+
+
+        <!-- Book Button Here -->
+        <div class="action-area">
+            <div class="action__area d-flex gap-3">
+                <button id="btn_book" class="btn   btn__book active">BOOK A TRIP</button>
+                <button id="btn_manage" class="btn  btn__book ">MANAGE BOOKING</button>
+            </div>
+
+
+            <div id="first__div" class="first__privew">
+                <!-- Single Trip -->
+                <div id="single__trip" class="single__trip">
+                    <form action="">
+                        <div class="trip__select">
+                            <div class="before__icon">
+                                <input type="text" placeholder="DEPARTING AIRPORT">
+                            </div>
+                        </div>
+
+                        <div class="trip__select">
+                            <div class="before__icon">
+                                <input type="text" placeholder="DISTINATION AIRPORT">
+                            </div>
+                        </div>
+
+                        <div class="trip__select">
+                            <div class="before__icon__date">
+                                <input type="text" placeholder="DEART DATE">
+                            </div>
+                        </div>
+
+                        <div class="trip__select duoble-input ">
+                            <div class="before__icon__user first__one">
+                                <input type="text" placeholder="SELECT PASSENGERS">
+                            </div>
+
+                            <div class="before__icon__last before__icon__user last__one">
+                                <input type="text" placeholder="PASSENGERS TYPE">
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Round Trip -->
+                <div id="round__trip" class="mt-4 round__trip">
+                    <form action="">
+                        <div class="trip__select">
+                            <div class="before__icon">
+                                <input type="text" placeholder="DEPARTING AIRPORT">
+
+                            </div>
+                        </div>
+
+                        <div class="trip__select">
+                            <div class="before__icon">
+                                <input type="text" placeholder="DISTINATION AIRPORT">
+                            </div>
+                        </div>
+
+
+                        <div class="trip__select duoble-input new__depart">
+                            <div class="new__icon first__one">
+                                <input type="text" placeholder="DEPART DATE">
+                            </div>
+
+                            <div class="before__icon__last new__icon last__one">
+                                <input type="text" placeholder="RETURN DATE">
+                            </div>
+                        </div>
+
+
+                        <div class="trip__select duoble-input ">
+                            <div class="before__icon__user first__one">
+                                <input type="text" placeholder="SELECT PASSENGERS">
+                            </div>
+
+                            <div class="before__icon__last before__icon__user last__one">
+                                <input type="text" placeholder="PASSENGERS TYPE">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Multy City Visitor -->
+
+                <div id="multy__city" class="mt-4 multy__city">
+                    <form action="">
+                        <div class="trip__select">
+                            <div class="before__icon">
+                                <input type="text" placeholder="DEPARTING AIRPORT">
+                            </div>
+                        </div>
+
+                        <div class="trip__select">
+                            <div class="before__icon">
+                                <input type="text" placeholder="DISTINATION AIRPORT">
+                            </div>
+                        </div>
+
+
+                        <div class="trip__select duoble-input new__depart">
+                            <div class="new__icon first__one">
+                                <input type="text" placeholder="DEPART DATE">
+                            </div>
+
+                            <div class="before__icon__last new__icon last__one">
+                                <input type="text" placeholder="RETURN DATE">
+                            </div>
+                        </div>
+
+
+                        <div class="trip__select duoble-input ">
+                            <div class="before__icon__user first__one">
+                                <input type="text" placeholder="SELECT PASSENGERS">
+                            </div>
+
+                            <div class="before__icon__last before__icon__user last__one">
+                                <input type="text" placeholder="PASSENGERS TYPE">
+                            </div>
+                        </div>
+
+                        <div class="reduce__icon">
+                            <i class="fa-solid fa-minus"></i>
+                        </div>
+
+                        <div class="trip__select">
+                            <div class="before__icon">
+                                <input type="text" placeholder="DEPARTING AIRPORT">
+                            </div>
+                        </div>
+
+                        <div class="trip__select">
+                            <div class="before__icon">
+                                <input type="text" placeholder="DISTINATION AIRPORT">
+                            </div>
+                        </div>
+
+
+                        <div class="trip__select duoble-input new__depart">
+                            <div class="new__icon first__one">
+                                <input type="text" placeholder="DEPART DATE">
+                            </div>
+
+                            <div class="before__icon__last new__icon last__one">
+                                <input type="text" placeholder="RETURN DATE">
+                            </div>
+                        </div>
+
+
+                        <div class="trip__select duoble-input ">
+                            <div class="before__icon__user first__one">
+                                <input type="text" placeholder="SELECT PASSENGERS">
+                            </div>
+
+                            <div class="before__icon__last before__icon__user last__one">
+                                <input type="text" placeholder="PASSENGERS TYPE">
+                            </div>
+                        </div>
+                        <div class="reduce__icon">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- all Round Trip button  -->
+                <div id="trip__select__btn">
+                    <div class="three-btns">
+                        <button id="oneWay">One Way</button>
+                        <button class="active" id="roundTrip">Round Trip</button>
+                        <button id="multycity">Multy City</button>
+                    </div>
+                    <div class="search-btn">
+                        <button>Search</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- manage trip section -->
+            <div id="mannage__trip" class="mannage__trip">
+                <div class="d-flex">
+                    <div class="">
+                        <button class=" active select__search__option" id="search__res">Reservations Number</button>
+                    </div>
+                    <div class="">
+                        <button class="select__search__option" id="search__ticket">Ticket Number</button>
+                    </div>
+
+                </div>
+
+                <div id="reservSer" class="search__with_reserve">
+                    <div class="search__with_res">
+                        <div class="reservations__number">
+                            <span class="text">
+                                <p>Reservations Number</p>
+                            </span>
+                            <input type="text" placeholder="ZEN7BC">
+                        </div>
+                        <div class=" reservations__number">
+                            <span class="text">
+                                <p>Last Name</p>
+                            </span>
+                            <input type="text" placeholder="NAME">
+                        </div>
+                    </div>
+                </div>
+                <div id="ticketSer" class="search__with_ticket">
+                    <div class="search__with_res">
+                        <div class="reservations__number">
+                            <span class="text">
+                                <p>Ticket Number</p>
+                            </span>
+                            <input type="text" placeholder="0123456789123">
+                        </div>
+                        <div class=" reservations__number">
+                            <span class="text">
+                                <p>Last Name</p>
+                            </span>
+                            <input type="text" placeholder="NAME">
+                        </div>
+                    </div>
+                </div>
+                <div class="search-btn">
+                    <button>Search</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Book Button End Here -->
+    </section>
+
+
+
+
+
+
+
+    <!-- All js file CDN link  -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./js/custom.js"></script>
+</body>
+
+</html>
