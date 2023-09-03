@@ -2,9 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Handle button clicks
     $("button").click(() => {
-        // Remove the "active" class from all buttons
         $("button").removeClass("active");
-        // Add the "active" class to the clicked button
         $(this).addClass("active");
     });
 
